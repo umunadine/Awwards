@@ -6,8 +6,9 @@
     font-family: 'Vollkorn', serif;
   }
   
-  .col-md-7{
+  .col-md-6{
     margin-top:20vh;
+    padding-left:8%;
   }
   .form-group{
     display:block;
@@ -16,7 +17,7 @@
 <div class="container-fluid">
   <div class="row">
     <div class='col-md-3' id='login'></div>
-    <div class='col-md-7' style='background-color:gray;color:white;'>
+    <div class='col-md-6' style='background-color:gray;color:white;'>
     <div class="col-md-10" >
       {% if form.errors %}
         <p> Password or Username is incorrect </p>
@@ -24,7 +25,7 @@
       <div class="panel panel-default">
 
         <div class="panel-heading"><br>
-          <h3 class="text-center">Log In</h3>
+          <h3 class="text-center" style="color: black;">Log In</h3>
         </div>
         <div class="panel-body">
 
@@ -42,7 +43,7 @@
         </div>
         
       </div>
-      <div class='panel text-center' style='padding:15px;'>Don't have an account? <a href="{% url 'register' %}"><span style="color: rgb(219, 215, 215);font-weight:bold"> Sign up</span></a>
+      <div class='panel text-center' style='padding:15px;'>Don't have an account? <a href="{% url 'register' %}"><span style="color: black;font-weight:bold"> Sign up</span></a>
       </a></div>
     </div>
     <!-- empty div -->
