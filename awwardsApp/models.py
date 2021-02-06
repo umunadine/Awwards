@@ -34,7 +34,6 @@ class Profile(models.Model):
     def search_user(cls,user):
         return cls.objects.filter(user__username__icontains=user).all()
 
-
 class Project(models.Model):
     title = models.CharField(max_length=50)
     image = models.ImageField(upload_to='images/', default='')
