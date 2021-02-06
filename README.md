@@ -2,21 +2,21 @@
 Awwards is an application that will allow a user to post a project he/she has created and get it reviewed by his/her peers.
 
 ## User stories
--View posted projects and their details<br/>
--Post a project to be rated/reviewed<br/>
--Rate/ review other users' projects<br/>
--Search for projects<br/>
--View projects overall score<br/>
--View my profile page<br/>
+- View posted projects and their details<br/>
+- Post a project to be rated/reviewed<br/>
+- Rate/ review other users' projects<br/>
+- Search for projects<br/>
+- View projects overall score<br/>
+- View my profile page<br/>
 
 ## Author
 Umutesi Nadine
 
 ## Prerequisite
--Python3.6 <br>
--Django MVC framework<br>
--HTML, CSS and Bootstrap<br>
--Postgressql<br>
+- Python3.6 <br>
+- Django MVC framework<br>
+- HTML, CSS and Bootstrap<br>
+- Postgressql<br>
 
 ## Setup/installation
 $ git clone https://github.com/umunadine/Awwards <br>
