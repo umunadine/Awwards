@@ -109,11 +109,6 @@ def search_results(request):
         message = "You haven't searched for any term"
         return render(request, 'search.html',{"message":message})
 
-@login_required(login_url='/accounts/login/')   
-def api_page(request):
-    return render(request,'apiPage.html')
-
-
 class ProfileList(APIView):
     def get(self, request, fromat=None):
         all_profiles =Profile.objects.all()
