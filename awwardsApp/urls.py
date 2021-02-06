@@ -13,9 +13,6 @@ urlpatterns = [
     url(r'my_profile',views.my_profile,name='my_profile'), 
     url(r'^new/project$', views.new_project, name='new_project'),
     url(r'^search/', views.search_results, name='search_results'),
-    url(r'^api/profile', views.ProfileList.as_view(),name='api-profile'),
-    url(r'^api/project', views.ProjectList.as_view(),name='api-project'),
-    url(r'^api',views.api_page,name='api-page'),
     url(r'^ratings/', include('star_ratings.urls', namespace='ratings')),
     url(r'^accounts/', include('registration.backends.simple.urls')),
 
