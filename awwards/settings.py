@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'awwardsApp',
     'bootstrap4',
+    'star_ratings',
     'tinymce',
     'rest_framework',
     'django.contrib.admin',
@@ -120,6 +121,10 @@ USE_L10N = True
 
 USE_TZ = True
 
+STAR_RATINGS_RERATE = True
+STAR_RATINGS_RANGE=10
+STAR_RATINGS_STAR_HEIGHT=20
+STAR_RATINGS_STAR_WIDTH=20
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
